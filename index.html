@@ -52,7 +52,7 @@
         .staticrypt-form .staticrypt-decrypt-button {
             text-transform: uppercase;
             outline: 0;
-            background: #4CAF50;
+            background: #000000;
             width: 100%;
             border: 0;
             padding: 15px;
@@ -62,7 +62,7 @@
         }
 
         .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
-            background: #43A047;
+            background: #000000;
         }
 
         .staticrypt-html {
@@ -71,11 +71,11 @@
 
         .staticrypt-body {
             margin-bottom: 1em;
-            background: #76b852; /* fallback for old browsers */
-            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-            background: -moz-linear-gradient(right, #76b852, #8DC26F);
-            background: -o-linear-gradient(right, #76b852, #8DC26F);
-            background: linear-gradient(to left, #76b852, #8DC26F);
+            background: #000000; /* fallback for old browsers */
+            background: -webkit-linear-gradient(right, #000000, #000000);
+            background: -moz-linear-gradient(right, #000000, #000000);
+            background: -o-linear-gradient(right, #000000, #000000);
+            background: linear-gradient(to left, #000000, #000000);
             font-family: "Arial", sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -117,7 +117,7 @@
 <div class="staticrypt-page">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Protected Page</p>
+            <p class="staticrypt-title">Smile App</p>
             <p></p>
         </div>
 
@@ -127,7 +127,7 @@
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="passphrase"
+                   placeholder="password"
                    autofocus/>
 
             <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT"/>
@@ -135,9 +135,6 @@
     </div>
 
 </div>
-<footer class="staticrypt-footer">
-    <p class="pull-right">Created with <a href="https://robinmoisson.github.io/staticrypt">StatiCrypt</a></p>
-</footer>
 
 
 <script>/**
